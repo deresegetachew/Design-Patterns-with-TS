@@ -1,1 +1,2 @@
-console.log("weee");
+console.log('weee');
+console.log('nooo');
