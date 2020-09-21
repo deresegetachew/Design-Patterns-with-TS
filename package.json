@@ -1,0 +1,19 @@
+{
+  "name": "design-patterns-ts",
+  "version": "1.0.0",
+  "description": "design patterns refresher for wa-africa",
+  "main": "index.js",
+  "author": "deres getachew",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.11.1",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "start": "npm run build:live",
+    "build": "tsc -p .",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/index.ts"
+  }
+}
