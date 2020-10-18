@@ -1,0 +1,1 @@
+# FlyWeight Design Pattern

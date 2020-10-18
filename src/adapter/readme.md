@@ -1,0 +1,1 @@
+# Adpater design pattern
